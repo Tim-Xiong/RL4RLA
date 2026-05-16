@@ -1,0 +1,53 @@
+script: run_mcgs.py
+initial-algorithm: null
+default-algorithm: "subsampling"
+new-steps: 1
+
+# Search configuration
+n-playouts: 100000
+c: 0.5
+score-fn: ucd
+temperature: 0.0
+graph-reuse: true
+early-stopping: true
+stopping-factor: 1.0
+use-lucb: true
+best-action-metric: "q_value"
+
+# Environment configuration
+system-type: MID_COND
+num-rows: 10000
+num-cols: 50
+condition-number: 2.0
+prop-range: 1.0
+lev: high
+vt-dis: gauss
+
+# Loop configuration
+setup-loop: true
+forward-loop: false
+update-loop: false
+
+# Solver configuration
+max-iterations: 10
+learning-rate: 0.5
+sampling-factor: 8
+batch-size: 100
+
+# Reward configuration
+base-weight: 1.0
+decay-weight: 10.0
+complexity-weight: 8.0
+condition-weight: 1.0
+reward-type: log
+iterative-sketch: true
+condition-reward-only: false
+
+# Output configuration
+log-dir: null
+db-path: null
+random-seed: 42
+
+# Experiment tracking
+target-algorithm: "leverage score subsampling"
+focus-operator: "LEVERAGE_SCORE"
