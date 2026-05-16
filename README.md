@@ -1,10 +1,14 @@
-# ICML Supplementary Material - Code
+# RL4RLA (ICML 2026)
 
-Batch experiment runner for MCGS/MCTS algorithm search experiments.
+Official code for **RL4RLA: Teaching ML to Discover Randomized Linear Algebra Algorithms through Curriculum Design and Graph-based Search**.
+
+**Paper:** [ICML 2026](https://arxiv.org/abs/XXXX.XXXXX) Link TBD.
+
+This repo runs batch experiments for Monte Carlo Graph Search (MCGS) and MCTS over symbolic linear-algebra primitive programs (configs under `hp/`).
 
 ## Requirements
 
-Tested on Python 3.9.
+Python 3.9 (tested).
 
 ## Setup
 
