@@ -2,7 +2,9 @@
 
 Official code for **RL4RLA: Teaching ML to Discover Randomized Linear Algebra Algorithms through Curriculum Design and Graph-based Search**.
 
-**Paper:** [ICML 2026](https://arxiv.org/abs/XXXX.XXXXX) Link TBD.
+**Paper:** [ICML 2026](https://arxiv.org/abs/2605.18004)
+
+**Project Page:** https://www.jinglongxiong.xyz/RL4RLA_page/
 
 This repo runs batch experiments for Monte Carlo Graph Search (MCGS) and MCTS over symbolic linear-algebra primitive programs (configs under `hp/`).
 
